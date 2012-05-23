@@ -15,9 +15,6 @@ class TestXMLPatent(unittest.TestCase):
     def setUp(self):
         self.foo = 'bar'
 
-    def test_dummy(self):
-        assert(1 == 1)
-
     def test_patent(self):
         attlist = XMLPatent(xmlfile.read())
         #print attlist
